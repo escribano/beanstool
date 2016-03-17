@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 
-	"github.com/agtorre/gocolorize"
-	"github.com/kr/beanstalk"
+	"github.com/escribano/gocolorize"
+	"github.com/escribano/beanstalk"
 )
 
 var TitleStyle = gocolorize.NewColor("green")

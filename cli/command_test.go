@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kr/beanstalk"
-	. "gopkg.in/check.v1"
+	"github.com/escribano/beanstalk"
+	. "github.com/escribano/check"
 )
 
 func Test(t *testing.T) { TestingT(t) }

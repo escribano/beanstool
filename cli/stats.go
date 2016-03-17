@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/agtorre/gocolorize"
-	"github.com/mcuadros/termtable"
+	"github.com/escribano/gocolorize"
+	"github.com/escribano/termtable"
 )
 
 const (

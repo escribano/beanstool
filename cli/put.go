@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kr/beanstalk"
+	"github.com/escribano/beanstalk"
 )
 
 type PutCommand struct {

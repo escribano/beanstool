@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kr/beanstalk"
+	"github.com/escribano/beanstalk"
 )
 
 type BuryCommand struct {

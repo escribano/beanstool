@@ -3,8 +3,8 @@ package cli
 import (
 	"time"
 
-	"github.com/kr/beanstalk"
-	. "gopkg.in/check.v1"
+	"github.com/escribano/beanstalk"
+	. "github.com/escribano/check"
 )
 
 type PutCommandSuite struct {

@@ -1,14 +1,15 @@
 package main
 
 import (
+	//"fmt"
+	"github.com/escribano/beanstool/cli"
 	"os"
 
-	"github.com/src-d/beanstool/cli"
-
-	"github.com/jessevdk/go-flags"
+	"github.com/escribano/go-flags"
 )
 
 func main() {
+	//fmt.Println("test")
 	parser := flags.NewNamedParser("beanstool", flags.Default)
 	parser.AddCommand("stats", "print stats on all tubes", "", &cli.StatsCommand{})
 	parser.AddCommand("tail", "tails a tube and prints his content", "", &cli.TailCommand{})
